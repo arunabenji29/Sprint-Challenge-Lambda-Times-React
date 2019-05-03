@@ -314,3 +314,15 @@ body {
   width: 100%;
   display: none;
 }
+
+.logout{
+  background-color: black;
+  color:white;
+  border-radius:3px;
+  
+}
+
+.logout:hover{
+  background-color:chocolate;
+
+}

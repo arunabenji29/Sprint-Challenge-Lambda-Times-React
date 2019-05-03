@@ -5,8 +5,8 @@
 
 body{
     /* background-color: blanchedalmond; */
-    background-image: url('../components/images/lambda-backdrop.jpg');
-    background-size: auto;
+    background: url('../components/images/lambda-backdrop.jpg') no-repeat center center fixed;
+    background-size: cover;;
 }
 
 .login-Form {
@@ -15,7 +15,8 @@ body{
     display:flex;
     flex-direction: column;
     margin:20% auto;
-    background:lightgray;
+    background:palegoldenrod;
+    border-radius:5px;
     
     justify-content: center;
     align-items: center;
@@ -45,3 +46,4 @@ body{
     align-items: center;
 
 }
+
